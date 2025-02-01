@@ -10,8 +10,8 @@ export const metadata = {
 const Portfolio = () => {
   return (
     <>
-      <p className="text-2xl font-bold mb-5 mt-10">Choose a gallery</p>
-      <div className="flex gap-10">
+      <p className="text-2xl font-bold mb-7 mt-5 lg:mt-10">Choose a gallery</p>
+      <div className="flex flex-col md:flex-row items-center gap-10">
         {images.map(({ category, id, src, name, url }) => {
           if (category === "portfolio") {
             return (
@@ -26,7 +26,7 @@ const Portfolio = () => {
                   alt={name}
                   className="object-cover"
                 />
-                <h2 className="absolute bottom-4 right-4 font-bold text-4xl group-hover:text-buttonPrimary transition-colors">
+                <h2 className="absolute bottom-4 right-4 font-bold text-2xl lg:text-4xl group-hover:text-buttonPrimary transition-colors">
                   {name}
                 </h2>
               </Link>

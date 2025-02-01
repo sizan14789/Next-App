@@ -11,11 +11,11 @@ const Contact = () => {
   return (
     <section className="my-auto">
       <div className="wrapper">
-        <h2 className={`${roboto.className} text-center text-7xl mb-24`}>
+        <h2 className={`${roboto.className} text-center text-7xl mb-10 lg:mb-24`}>
           Let's keep in touch
         </h2>
-        <div className="grid grid-cols-2 gap-16 h-box">
-          <div className="w-full flex justify-center contactImage">
+        <div className="lg:grid lg:grid-cols-2 gap-16 h-box">
+          <div className="w-full lg:flex justify-center contactImage hidden">
             <figure className="relative aspect-square mx-auto ">
               <Image
                 src="/contact.png"
@@ -25,7 +25,7 @@ const Contact = () => {
               />
             </figure>
           </div>
-          <form className="flex flex-col gap-6">
+          <form className="flex flex-col gap-6 max-w-96  mx-auto lg:mx-0 justify-center">
             <input
               className="p-4 border-2 rounded-md bg-transparent placeholder:text-gray-400 "
               type="text"

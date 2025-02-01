@@ -42,6 +42,17 @@ section{
 
 /*? End Theme ------------------------------------------------- */
 
+/*? Navbar */
+
+.open{
+  transition: all .3s ease;
+}
+.closed{
+  transition: all .3s ease;
+  transform: translateX(100%);
+}
+
+/*? End Navbar */
 
 /*?  Animations ----------------------------- */
 

@@ -8,7 +8,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <section className="my-auto">
+    <section className="my-10 lg:my-auto">
       <div className="wrapper">
         <figure className="mb-10 h-72 w-full relative">
           <Image
@@ -18,16 +18,16 @@ const About = () => {
             className="object-cover grayscale"
           />
           <div className="absolute bottom-6 left-6 bg-buttonPrimary py-2 px-4">
-            <h2 className="font-bold text-white text-2xl">
+            <h2 className="font-bold text-white text-xl lg:text-2xl">
               Digital Storytellers
             </h2>
             <p className="font-bold text-white">
-              Handcrafting award winning digital experience
+              Handcrafting award winning <br className="md:hidden"/> digital experience
             </p>
           </div>
         </figure>
 
-        <div className="grid grid-cols-2 gap-16">
+        <div className="grid lg:grid-cols-2 gap-16">
           <div className="flex flex-col gap-8">
             <h2 className="text-4xl font-bold">Who are we?</h2>
             <p>
@@ -64,7 +64,7 @@ const About = () => {
               <br />
               <br />- Creative illustration
             </p>
-            <Button url={"/About"} name={"Contact"} />
+            <Button url={"/contact"} name={"Contact"} />
           </div>
         </div>
       </div>

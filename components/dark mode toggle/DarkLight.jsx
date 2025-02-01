@@ -1,5 +1,5 @@
 import { ThemeContext } from "@/context/ThemeContext"
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 
 const DarkLight = () => {
   const { toggle, mode } = useContext(ThemeContext)

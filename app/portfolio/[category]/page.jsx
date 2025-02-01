@@ -5,12 +5,9 @@ import { notFound } from "next/navigation";
 
 const getData = (cat) => {
   const data = items[cat];
-  console.log(data);
-
   if (data) {
     return data;
   }
-
   return notFound();
 };
 
