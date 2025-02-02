@@ -22,7 +22,7 @@ export default function Home() {
           </button>
         </div>
         <figure className="xl:max-w-box" >
-          <Image src={Hero} alt="hero" className=" animate-move max-w-sm mx-auto"/>
+          <Image src={Hero} alt="hero" className=" animate-move sm:max-w-sm mx-auto"/>
         </figure>
       </div>
     </section>

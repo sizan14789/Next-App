@@ -2,8 +2,9 @@ import posts from "@/models/Post";
 import connect from "@/utils/db";
 import { NextResponse } from "next/server";
 
-export async function POST (request) {
+export async function POST(request) {
   const body = await request.json();
+  console.log(body)
 
   try {
     await connect();

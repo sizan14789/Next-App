@@ -21,6 +21,7 @@ export default {
       },
       height: {
         box: "30rem",
+        nav: "1000vh"
       },
       fontSize: {
         heading: "6vw"
@@ -31,6 +32,9 @@ export default {
       animation: {
         "contact": "contact 3s ease infinite alternate",
         "move": "move 3s linear infinite alternate",
+      },
+      translate: {
+        lightDark: "120%"
       }
     },
   },

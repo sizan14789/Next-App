@@ -15,7 +15,7 @@ export const roboto = Roboto({ weight: ['100', '400', '700', '900'], subsets: ['
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="overflow-auto">
         <Wrapper>
           <ThemeProvider>
             <Navbar />
