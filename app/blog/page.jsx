@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 export const metadata = {
   title: "Blog",
-  description: "Blog page",
+  description: "Blog page"
 };
 
 const getData = async () => {

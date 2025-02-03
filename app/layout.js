@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/context/ThemeContext";
 import Wrapper from "@/components/AuthProvider/wrapper";
 
 export const metadata = {
-  title: "Lamamia",
+  title: "Sizblog",
   description: "Landing site",
 };
 
@@ -15,6 +15,9 @@ export const roboto = Roboto({ weight: ['100', '400', '700', '900'], subsets: ['
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+      <link rel="icon" href="/favicon.png" />
+    </head>
       <body className="overflow-auto">
         <Wrapper>
           <ThemeProvider>
