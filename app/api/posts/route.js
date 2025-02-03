@@ -1,6 +1,5 @@
 import posts from "@/models/Post";
 import connect from "@/utils/db";
-import { useSession } from "next-auth/react";
 import { NextResponse } from "next/server";
 
 export async function GET(request) {

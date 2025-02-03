@@ -12,6 +12,7 @@ const getData = async () => {
     cache: "no-cache",
   });
   if (!res.ok) {
+    console.log("wrong")
     return notFound();
   }
   return res.json();
