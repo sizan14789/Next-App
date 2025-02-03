@@ -19,7 +19,7 @@ const Navbar = () => {
     <section className="p-8">
       <nav className="wrapper flex justify-end items-center">
         <Link href="/" className="mr-auto text-3xl font-thin">
-          lamamia
+          Sizblog
         </Link>
         <div className={`lg:flex-row gap-8 lg:p-0 lg:h-auto lg:w-auto lg:translate-x-0 lg:bg-transparent fixed lg:relative items-center top-0 right-0 flex flex-col pt-28 w-1/3 min-w-60 z-10 h-screen ${mode=== "light" ? 'bg-white': 'bg-black'} ${closed? "closed" : "open"} `} >
           <div className={`${closed? "opacity-0" : "inline-block"} text-4xl hover:text-buttonPrimary cursor-pointer lg:hidden`} onClick={()=>isClosed(!closed)} >
